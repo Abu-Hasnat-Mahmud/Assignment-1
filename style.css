@@ -1,6 +1,7 @@
+
 body{
     font-family: 'Poppins', sans-serif;
-    margin: 0;
+   margin: 0;
 }
 
 h1{
@@ -10,10 +11,13 @@ h2{
     font-size: 40px;
 }
 
+.color-ash{
+    color: rgba(143, 128, 128, 0.922);
+}
+
 .flexible-container{
     display: flex;
-    margin-bottom: 150px;
-    
+    margin-bottom: 100px;
 }
 
 .tomato-color{
@@ -28,13 +32,12 @@ h2{
 
 .half-width img{
     width: 80%;
-    
 }
 
 .link-button{
     text-decoration: none;
     font-weight: 700;    
-    background-image: linear-gradient(tomato,pink);
+    background-image: linear-gradient(orange,tomato);
     color: white;
     padding: 10px 40px;
     border-radius: 25px;
@@ -42,9 +45,13 @@ h2{
 
 .about-section{
     background-image: url(images/about-banner.png);
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;   
+    background-size: cover;
 }
 
+.about-section img{
+    width:60%;
+}
 .text-center{
     text-align:center;
 }
@@ -52,20 +59,40 @@ h2{
 .felexible-receipie{
     display: flex;
     /* justify-content: center; */
-
 }
 
 .receipie-item{
     border-radius: 20px;
-    box-shadow: 10px 10px 30px gray;
-    margin: 50px;
+    box-shadow: 10px 10px 20px rgb(211, 198, 198);
+    margin: 30px;
     padding: 15px;
 }
 
 .receipie-item img{
     height: 50%;
     width: 100%;
-    
+}
+
+#address-section{
+    margin: 50px;
+    border-radius: 20px;
+    padding:20px;
+    box-shadow: 10px 10px 15px rgb(211, 198, 198);
+}
+
+#social-contrainer{
+    margin: 50px;
+    border-radius: 20px;
+    padding:20px;
+    box-shadow: 10px 10px 15px rgb(211, 198, 198);
+}
+.social-item{
+    margin:auto;
+    padding: 10px;
+}
+
+.margin-0{
+    margin: 0;
 }
 
 footer{
